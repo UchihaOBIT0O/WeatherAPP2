@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+
+.main {
+  height: 93vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main > h1 {
+  font-size: 100px;
+  font-family: "Protest Revolution", sans-serif;
+}
+
+.main > span {
+  font-size: 30px;
+  font-family: "Protest Revolution", sans-serif;
+  margin: 10px 0 0 35%;
+}
+
+.link > button {
+  font-family: "Raleway";
+  background-color: #271340;
+  border: none;
+  width: 100px;
+  color: white;
+  margin: 50px auto;
+}

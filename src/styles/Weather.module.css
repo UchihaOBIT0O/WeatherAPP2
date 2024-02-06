@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  color: #271340;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.main > h1 {
+  font-family: "Mukta", sans-serif;
+  color: #271340;
+}
+
+.title {
+  display: flex;
+  font-family: "Mukta", sans-serif;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  top: 100px;
+  position: absolute;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr; /* One column */
+  grid-template-rows: auto auto; /* Two rows with auto sizing */
+  height: 50vh;
+  width: 40vw;
+  gap: 20px;
+}
+
+.details > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: "Mukta", sans-serif;
+  gap: 20px;
+}
+
+.details > div > div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.rightContainer {
+  grid-row: 2; /* Second row */
+  grid-column: 2; /* Second column */
+}
+
+.leftContainer {
+  grid-row: 2; /* Second row */
+}
+
+.hero {
+  grid-column: 1 / span 2;
+}
+
+.details > .hero {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.initialPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Protest Revolution", Courier, monospace;
+}
+
+.initialPage > button {
+  font-family: "Protest Revolution", sans-serif;
+  background-color: #271340;
+  border: none;
+  width: 100px;
+  color: white;
+  margin: 50px auto;
+}
+
+.logout > .logoutNavLink > button {
+  font-family: "Protest Revolution", sans-serif;
+  background-color: #271340;
+  border: none;
+  width: 100px;
+  color: white;
+  margin: 10px 0 0 400px;
+}

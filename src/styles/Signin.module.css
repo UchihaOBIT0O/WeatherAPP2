@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-family: "Mukta", sans-serif;
+  background-color: black;
+  color: white;
+  height: 45vh;
+  width: 15vw;
+  border-radius: 10px;
+}
+
+.container > form > input[type="email"] {
+  background-color: none;
+  height: 30px;
+  width: 80%;
+}
+.container > form > input[type="password"] {
+  background-color: none;
+  height: 30px;
+  width: 80%;
+}
+.container > form > button {
+  background-color: none;
+  height: 30px;
+  width: 80%;
+}
